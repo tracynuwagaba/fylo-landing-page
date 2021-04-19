@@ -15,6 +15,14 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
 button {
   background: linear-gradient(to right, var(--cyan), var(--blue));
   padding: 15px 0;
@@ -96,3 +104,75 @@ nav a {
 }
 
 /* Features section */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  max-width: 380px;
+}
+
+.feature-item img {
+  margin: 15px;
+  height: auto;
+}
+
+.feature-item h2,
+.feature-item p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.feature-item p {
+  font-size: 10px;
+}
+
+/* Productive section */
+.productive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.productive-img {
+  width: 500px;
+}
+
+.productive .info {
+  margin: 50px;
+  max-width: 500px;
+}
+
+.productive h2 {
+  text-align: left;
+  margin-left: 0;
+}
+
+.productive a {
+  color: var(--cyan);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cyan);
+  padding-bottom: 5px;
+}
+
+.productive a img {
+  height: 15px;
+  transform: translateY(3px);
+}
