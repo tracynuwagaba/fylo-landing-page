@@ -42,10 +42,10 @@ button:hover {
 
 /* Navigation */
 header {
-  font-size: 2rem;
+  /* font-size: 1rem; */
   font-family: "Raleway", sans-serif;
-  margin: 20px;
-  font-weight: bold;
+  /* margin: 20px; */
+  /* font-weight: bold; */
   text-align: center;
 }
 
@@ -60,6 +60,8 @@ nav {
 nav .logo {
   width: 100px;
   height: auto;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 nav ul {
@@ -74,6 +76,8 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
 }
 
 /* Hero section */
@@ -95,12 +99,12 @@ nav a {
 }
 
 .hero p {
-  font-size: 1rem;
+  font-size: 10px;
 }
 
 .hero button {
   margin-top: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 /* Features section */
@@ -151,13 +155,23 @@ nav a {
   text-align: left;
 }
 
+.productive-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
 .productive-img {
-  width: 500px;
+  width: 350px;
 }
 
 .productive .info {
-  margin: 50px;
-  max-width: 500px;
+  /* margin: 50px; */
+  /* max-width: 500px; */
+}
+
+.productive p {
+  font-size: 10px;
 }
 
 .productive h2 {
@@ -170,6 +184,7 @@ nav a {
   text-decoration: none;
   border-bottom: 1px solid var(--cyan);
   padding-bottom: 5px;
+  font-size: 10px;
 }
 
 .productive a img {
