@@ -79,8 +79,8 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 10px;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-size: 10px; */
 }
 
 /* Hero section */
@@ -99,6 +99,10 @@ nav a {
 
 .hero img {
   width: 500px;
+}
+
+.hero h1 {
+  font-family: "Raleway", sans-serif;
 }
 
 /* .hero p {
@@ -336,6 +340,10 @@ form {
 
 .footer img {
   margin-bottom: 1em;
+  width: 100px;
+  font-size: 1em;
+  height: auto;
+  font-weight: bold;
 }
 
 .location,
@@ -392,4 +400,46 @@ form {
   justify-content: center;
   align-items: center;
   margin: 2px;
+}
+
+/* Mobile design */
+@media screen and (max-width: 700px) {
+  nav .logo {
+    width: 120px;
+  }
+  nav a {
+    font-size: 10px;
+  }
+  img {
+    max-width: 80vw;
+  }
+  .hero-info {
+    padding: 30px;
+    height: 55vh;
+  }
+  .hero img {
+    width: 300px;
+    height: auto;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  br {
+    display: none;
+  }
+  .hero p {
+    max-width: 85vw;
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  button {
+    width: 250px;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    /* max-width: 1200px; */
+  }
 }
