@@ -35,8 +35,6 @@ button {
   color: #fff;
   font-size: 1rem;
   margin-top: 20px;
-  /* position: relative; */
-  /* transition: all 0.2s ease; */
 }
 
 button:hover {
@@ -45,10 +43,7 @@ button:hover {
 
 /* Navigation */
 header {
-  /* font-size: 1rem; */
   font-family: "Raleway", sans-serif;
-  /* margin: 20px; */
-  /* font-weight: bold; */
   text-align: center;
 }
 
@@ -80,8 +75,6 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: lighter;
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-size: 10px; */
 }
 
 /* Hero section */
@@ -105,10 +98,6 @@ nav a {
 .hero h1 {
   font-family: "Raleway", sans-serif;
 }
-
-/* .hero p {
-  font-size: 10px;
-} */
 
 .hero button {
   margin-top: 10px;
@@ -155,10 +144,6 @@ nav a {
   font-size: 14px;
 }
 
-/* .feature-item p {
-  font-size: 10px;
-} */
-
 /* Productive section */
 .productive {
   display: flex;
@@ -178,14 +163,8 @@ nav a {
 }
 
 .info {
-  /* margin: 50px; */
-  /* max-width: 500px; */
   margin-top: 50px;
 }
-
-/* .productive p {
-  font-size: 10px;
-} */
 
 .productive h2 {
   text-align: left;
@@ -207,9 +186,6 @@ nav a {
 
 /* Customer reviews section */
 .reviews {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin-top: 80px;
 }
 
@@ -218,10 +194,6 @@ nav a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 2em;
-  position: relative; */
 }
 
 .review {
@@ -231,7 +203,6 @@ nav a {
   border-radius: 5px;
   font-size: 8px;
   margin: 25px;
-  /* box-sizing: border-box; */
 }
 
 .review p {
@@ -264,7 +235,6 @@ nav a {
 }
 
 .user-info p {
-  /* line-height: 1rem; */
   margin: 0px;
 }
 
@@ -280,8 +250,6 @@ nav a {
 /* styling the form */
 .form {
   text-align: center;
-  /* position: relative; */
-  /* top: 100px; */
   margin-top: 300px;
   padding-bottom: 20px;
 }
@@ -303,10 +271,6 @@ form {
   flex-direction: row;
 }
 
-/* .form-info p {
-  font-size: 10px;
-} */
-
 .form input {
   width: 300px;
   border-radius: 150px;
@@ -320,8 +284,6 @@ form {
 /* Styling the footer */
 .footer {
   background: #0c1524;
-  /* margin-top: 300px; */
-  /* padding-bottom: 20px; */
   padding-top: 180px;
   padding-bottom: 20px;
 }
@@ -333,7 +295,8 @@ form {
 
 .footer-info {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .footer-info p {
@@ -383,7 +346,6 @@ form {
   display: flex;
   justify-content: center;
   margin-top: 0.5em;
-  /* gap: 1em; */
 }
 
 .social img {
@@ -406,6 +368,12 @@ form {
 
 /* Mobile design */
 @media screen and (max-width: 700px) {
+  body {
+    width: 100vw;
+  }
+  p {
+    line-height: 1.5rem;
+  }
   nav .logo {
     width: 120px;
   }
@@ -432,7 +400,6 @@ form {
   .hero p {
     max-width: 85vw;
     font-size: 16px;
-    line-height: 1.5rem;
   }
   button {
     width: 250px;
@@ -442,7 +409,6 @@ form {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 300px;
-    /* max-width: 1200px; */
   }
   .features-info {
     display: flex;
@@ -454,11 +420,8 @@ form {
   }
   .feature-item p {
     font-size: 13px;
-    line-height: 1.5rem;
   }
   .reviews-info,
-  .footer,
-  .footer-info,
   .productive-info {
     display: flex;
     flex-direction: column;
@@ -476,7 +439,6 @@ form {
   }
   .productive p {
     font-size: 15px;
-    line-height: 1.5rem;
   }
   .productive a {
     font-size: 14px;
@@ -486,12 +448,50 @@ form {
   }
   .review p {
     font-size: 11px;
-    line-height: 1.5rem;
   }
   .user-info .name {
     font-size: 11px;
   }
   .user-info .about {
     font-size: 9px;
+  }
+  .form {
+    padding-bottom: 80px;
+  }
+  .form-info {
+    max-width: 72vw;
+  }
+  .form-info h2 {
+    font-size: 1.2rem;
+  }
+  .form-info p {
+    font-size: 15px;
+  }
+  form {
+    flex-direction: column;
+  }
+  .form-info input {
+    width: 240px;
+  }
+  .form-info button {
+    width: 290px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer img {
+    width: 200px;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-info p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .footer ul a {
+    font-size: 18px;
   }
 }
