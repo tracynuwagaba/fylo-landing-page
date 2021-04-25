@@ -160,7 +160,7 @@ nav a {
 }
 
 .productive-img {
-  width: 350px;
+  width: 400px;
 }
 
 .info {
@@ -206,9 +206,9 @@ nav a {
   margin: 25px;
 }
 
-.review p {
+/* .review p {
   font-size: 12px;
-}
+} */
 
 .review:nth-child(1) {
   position: relative;
