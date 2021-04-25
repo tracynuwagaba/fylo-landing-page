@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
 :root {
   --primary-bg: hsl(217, 28%, 15%);
   --cyan: hsl(176, 68%, 64%);
@@ -23,6 +22,7 @@ h2 {
 p {
   line-height: 1rem;
   font-size: 10px;
+  font-weight: lighter;
 }
 
 button {
@@ -79,6 +79,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
+  font-weight: lighter;
   /* font-family: "Open Sans", sans-serif; */
   /* font-size: 10px; */
 }
@@ -123,7 +124,7 @@ nav a {
   max-width: 1200px;
 }
 
-.features-grid {
+.features-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
@@ -166,7 +167,7 @@ nav a {
   text-align: left;
 }
 
-.productive-grid {
+.productive-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
@@ -212,7 +213,7 @@ nav a {
   margin-top: 80px;
 }
 
-.reviews-grid {
+.reviews-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -269,6 +270,7 @@ nav a {
 
 .user-info .name {
   font-size: 8px;
+  font-weight: bold;
 }
 
 .user-info .about {
@@ -441,5 +443,55 @@ form {
     flex-wrap: wrap;
     margin-top: 300px;
     /* max-width: 1200px; */
+  }
+  .features-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .feature-item p {
+    font-size: 13px;
+    line-height: 1.5rem;
+  }
+  .reviews-info,
+  .footer,
+  .footer-info,
+  .productive-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .productive {
+    margin-top: 100px;
+  }
+  .productive-info {
+    padding: 25px;
+  }
+  .productive h2 {
+    font-size: 20px;
+  }
+  .productive p {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+  .productive a {
+    font-size: 14px;
+  }
+  .review {
+    width: 250px;
+  }
+  .review p {
+    font-size: 11px;
+    line-height: 1.5rem;
+  }
+  .user-info .name {
+    font-size: 11px;
+  }
+  .user-info .about {
+    font-size: 9px;
   }
 }
