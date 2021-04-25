@@ -48,7 +48,7 @@ header {
 }
 
 nav {
-  padding: 60px;
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,13 +150,13 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: left;
-  width: 80vw;
 }
 
 .productive-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+  width: 80vw;
 }
 
 .productive-img {
