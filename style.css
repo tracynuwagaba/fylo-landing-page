@@ -21,7 +21,7 @@ h2 {
 
 p {
   line-height: 1rem;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: lighter;
 }
 
@@ -45,6 +45,7 @@ button:hover {
 header {
   font-family: "Raleway", sans-serif;
   text-align: center;
+  margin: 20px;
 }
 
 nav {
@@ -109,7 +110,7 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 1200px;
 }
 
@@ -156,6 +157,7 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+  margin: 20px;
 }
 
 .productive-img {
@@ -198,7 +200,7 @@ nav a {
 
 .review {
   background: #21293d;
-  width: 250px;
+  width: 300px;
   padding: 20px;
   border-radius: 5px;
   font-size: 8px;
@@ -206,7 +208,7 @@ nav a {
 }
 
 .review p {
-  font-size: 08px;
+  font-size: 12px;
 }
 
 .review:nth-child(1) {
