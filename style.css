@@ -198,7 +198,7 @@ nav a {
 
 .review {
   background: #21293d;
-  width: 350px;
+  width: 250px;
   padding: 20px;
   border-radius: 5px;
   font-size: 8px;
@@ -297,6 +297,7 @@ form {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .footer-info p {
