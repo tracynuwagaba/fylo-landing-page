@@ -394,7 +394,7 @@ form {
     max-width: 80vw;
   }
   .hero-info {
-    padding-top: 60px;
+    padding: 10px;
     height: 55vh;
   }
   .hero img {
