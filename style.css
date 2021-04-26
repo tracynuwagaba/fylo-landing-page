@@ -98,12 +98,12 @@ nav a {
 
 .hero h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .hero button {
   margin-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 /* Features section */
@@ -172,7 +172,7 @@ nav a {
 .productive h2 {
   text-align: left;
   margin-left: 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .productive a {
@@ -202,10 +202,10 @@ nav a {
 
 .review {
   background: #21293d;
-  width: 300px;
+  width: 320px;
   padding: 20px;
   border-radius: 5px;
-  font-size: 8px;
+  /* font-size: 8px; */
   margin: 25px;
 }
 
@@ -239,12 +239,12 @@ nav a {
 }
 
 .user-info .name {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .user-info .about {
-  font-size: 6px;
+  font-size: 10px;
 }
 
 /* styling the form */
@@ -311,7 +311,8 @@ form {
   font-size: 1em;
   height: auto;
   font-weight: bold;
-  padding: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .location,
