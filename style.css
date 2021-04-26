@@ -104,7 +104,7 @@ nav a {
 
 .hero button {
   margin-top: 10px;
-  margin-bottom: 180px;
+  margin-bottom: 200px;
 }
 
 /* Features section */
@@ -204,7 +204,7 @@ nav a {
 .review {
   background: #21293d;
   width: 300px;
-  padding: 15px;
+  padding: 20px;
   border-radius: 5px;
   /* font-size: 8px; */
   margin: 25px;
@@ -221,6 +221,10 @@ nav a {
   left: -10px;
   top: -32px;
   z-index: -1;
+}
+
+.review p {
+  font-size: 15px;
 }
 
 .review img {
