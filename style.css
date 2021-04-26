@@ -21,7 +21,7 @@ h2 {
 
 p {
   line-height: 1rem;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: lighter;
 }
 
@@ -90,6 +90,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  margin-top: 20px;
 }
 
 .hero img {
@@ -98,12 +99,12 @@ nav a {
 
 .hero h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .hero button {
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 /* Features section */
@@ -172,7 +173,7 @@ nav a {
 .productive h2 {
   text-align: left;
   margin-left: 0;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .productive a {
@@ -306,7 +307,7 @@ form {
 } */
 
 .footer img {
-  margin-bottom: 0.5em;
+  margin-bottom: 0px;
   width: 100px;
   font-size: 1em;
   height: auto;
