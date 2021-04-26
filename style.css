@@ -98,6 +98,7 @@ nav a {
 
 .hero h1 {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .hero button {
@@ -171,6 +172,7 @@ nav a {
 .productive h2 {
   text-align: left;
   margin-left: 0;
+  font-size: 18px;
 }
 
 .productive a {
@@ -178,7 +180,7 @@ nav a {
   text-decoration: none;
   border-bottom: 1px solid var(--cyan);
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .productive a img {
@@ -200,7 +202,7 @@ nav a {
 
 .review {
   background: #21293d;
-  width: 350px;
+  width: 300px;
   padding: 20px;
   border-radius: 5px;
   font-size: 8px;
@@ -299,9 +301,9 @@ form {
   padding: 60px;
 }
 
-.footer-info p {
+/* .footer-info p {
   font-size: 10px;
-}
+} */
 
 .footer img {
   margin-bottom: 1em;
@@ -340,7 +342,7 @@ form {
   text-decoration: none;
   color: #fff;
   line-height: 1em;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .social {
